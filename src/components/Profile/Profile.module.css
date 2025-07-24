@@ -1,0 +1,40 @@
+.profile {
+  border: 3px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  background-color: silver;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+.location,
+.tag {
+  font-size: 20px;
+  margin: 0px;
+  color: darkgray;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgrey;
+  border: 1px solid gray;
+  padding: 12px 16px;
+  width: 100px;
+}
